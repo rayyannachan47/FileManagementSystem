@@ -1,0 +1,3 @@
+11-07-2026 03:27:39 | INFO | Created File | E:\\abc.txt -> E:\\def.txt
+11-07-2026 03:30:29 | ERROR | File does not exist | sda
+11-07-2026 03:33:21 | INFO | Renamed File | E:\\def.txt -> E:\\abc.txt

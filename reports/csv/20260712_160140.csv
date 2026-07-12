@@ -1,0 +1,78 @@
+Date,Module,Severity Level,Status,Remark
+11-07-2026 11:01:15,compress_file,ERROR,Compression Failed,E:\\abc.txtt
+11-07-2026 11:01:47,compress_file,INFO,Compressed,E:\\abc.txt -> E:\\ziptest.zip
+11-07-2026 03:36:23,copy_file,ERROR,Copy Failed,abc.txt
+11-07-2026 03:36:23,copy_file,ERROR,Copy Failed,def.txt
+11-07-2026 03:37:25,copy_file,INFO,Copied,E:\\abc.txt -> E:\\Videos
+11-07-2026 03:37:25,copy_file,INFO,Copied,E:\\def.txt -> E:\\Videos
+11-07-2026 04:04:50,create_directory,INFO,Directory Created,E:test1
+11-07-2026 04:10:30,create_directory,INFO,Directory Created,E:qwe
+11-07-2026 04:41:42,create_directory,INFO,Directory Created,E:\\test
+11-07-2026 03:25:27,create_file,INFO,Created File,E:abc.txt
+11-07-2026 03:26:02,create_file,ERROR,File already exists,E:abc.txt
+11-07-2026 03:50:32,create_file,INFO,Search File,E:\abc.txt
+11-07-2026 11:03:10,decompress_file,ERROR,File doesn't exists,E:\\ziptest
+11-07-2026 11:03:21,decompress_file,ERROR,File doesn't exists,E:\ziptest
+11-07-2026 11:03:32,decompress_file,ERROR,File doesn't exists,ziptest
+11-07-2026 11:04:08,decompress_file,INFO,Files decompress successfully,E:\\ziptest.zip
+11-07-2026 11:29:47,decrypt_file,INFO,Decrypted,E:\\abc.txt
+11-07-2026 11:35:39,decrypt_file,INFO,Decrypted,E:\\abc.txt
+11-07-2026 04:08:03,delete_directory,INFO,Directory Deleted,E:\\test2
+11-07-2026 04:11:35,delete_directory,INFO,Directory Deleted,E:\\qwe1
+11-07-2026 03:34:18,delete_file,ERROR,File does not exist,dasd
+11-07-2026 03:34:41,delete_file,INFO,Deleted File,E:\\abc.txt
+11-07-2026 11:22:15,encrypt_file,ERROR,Something went wrong,Fernet key must be 32 url-safe base64-encoded bytes.
+11-07-2026 11:26:24,encrypt_file,ERROR,Something went wrong,Fernet key must be 32 url-safe base64-encoded bytes.
+11-07-2026 11:28:44,encrypt_file,ERROR,Something went wrong,Fernet key must be 32 url-safe base64-encoded bytes.
+11-07-2026 11:29:21,encrypt_file,INFO,Encrypted,E:\\abc.txt
+11-07-2026 11:35:10,encrypt_file,INFO,Encrypted,E:\\abc.txt
+11-07-2026 11:43:25,encrypt_file,ERROR,File does not exist,E:\\abc.txtt
+11-07-2026 03:42:13,move_file,INFO,Moved,E:\\abc.txt -> E:\\Videos
+11-07-2026 04:07:23,rename_directory,INFO,Directory Renamed,E:\\test1 -> E:\\test2
+11-07-2026 04:11:11,rename_directory,INFO,Directory Renamed,E:\\qwe -> E:\\qwe1
+11-07-2026 04:42:08,rename_directory,ERROR,Something went wrong,[WinError 3] The system cannot find the path specified: 'E:\\\\test' -> ''
+11-07-2026 03:27:39,rename_file,INFO,Created File,E:\\abc.txt -> E:\\def.txt
+11-07-2026 03:30:29,rename_file,ERROR,File does not exist,sda
+11-07-2026 03:33:21,rename_file,INFO,Renamed File,E:\\def.txt -> E:\\abc.txt
+12-07-2026 11:01:15,compress_file,ERROR,Compression Failed,E:\\abc.txtt
+12-07-2026 11:01:47,compress_file,INFO,Compressed,E:\\abc.txt -> E:\\ziptest.zip
+12-07-2026 03:36:23,copy_file,ERROR,Copy Failed,abc.txt
+12-07-2026 03:36:23,copy_file,ERROR,Copy Failed,def.txt
+12-07-2026 03:37:25,copy_file,INFO,Copied,E:\\abc.txt -> E:\\Videos
+12-07-2026 03:37:25,copy_file,INFO,Copied,E:\\def.txt -> E:\\Videos
+12-07-2026 04:04:50,create_directory,INFO,Directory Created,E:test1
+12-07-2026 04:10:30,create_directory,INFO,Directory Created,E:qwe
+12-07-2026 04:41:42,create_directory,INFO,Directory Created,E:\\test
+12-07-2026 03:25:27,create_file,INFO,Created File,E:abc.txt
+12-07-2026 03:26:02,create_file,ERROR,File already exists,E:abc.txt
+12-07-2026 03:50:32,create_file,INFO,Search File,E:\abc.txt
+12-07-2026 11:03:10,decompress_file,ERROR,File doesn't exists,E:\\ziptest
+12-07-2026 11:03:21,decompress_file,ERROR,File doesn't exists,E:\ziptest
+12-07-2026 11:03:32,decompress_file,ERROR,File doesn't exists,ziptest
+12-07-2026 11:04:08,decompress_file,INFO,Files decompress successfully,E:\\ziptest.zip
+12-07-2026 11:29:47,decrypt_file,INFO,Decrypted,E:\\abc.txt
+12-07-2026 11:35:39,decrypt_file,INFO,Decrypted,E:\\abc.txt
+12-07-2026 11:44:40,decrypt_file,INFO,Decrypted,E:\\abc.txt
+12-07-2026 04:08:03,delete_directory,INFO,Directory Deleted,E:\\test2
+12-07-2026 04:11:35,delete_directory,INFO,Directory Deleted,E:\\qwe1
+12-07-2026 03:34:18,delete_file,ERROR,File does not exist,dasd
+12-07-2026 03:34:41,delete_file,INFO,Deleted File,E:\\abc.txt
+12-07-2026 11:22:15,encrypt_file,ERROR,Something went wrong,Fernet key must be 32 url-safe base64-encoded bytes.
+12-07-2026 11:26:24,encrypt_file,ERROR,Something went wrong,Fernet key must be 32 url-safe base64-encoded bytes.
+12-07-2026 11:28:44,encrypt_file,ERROR,Something went wrong,Fernet key must be 32 url-safe base64-encoded bytes.
+12-07-2026 11:29:21,encrypt_file,INFO,Encrypted,E:\\abc.txt
+12-07-2026 11:35:10,encrypt_file,INFO,Encrypted,E:\\abc.txt
+12-07-2026 11:43:25,encrypt_file,ERROR,File does not exist,E:\\abc.txtt
+12-07-2026 11:44:25,encrypt_file,INFO,Encrypted,E:\\abc.txt
+12-07-2026 12:32:01,generate_csv_report,INFO,CSV Report Generated Successfully.,reports\csv\11-07-2026_to_11-07-2026_20260712_123201.csv
+12-07-2026 12:33:10,generate_csv_report,INFO,No records found.,10-07-2026-10-07-2026
+12-07-2026 12:34:33,generate_csv_report,INFO,No records found.,10-07-2026-10-07-2026
+12-07-2026 12:35:06,generate_json_report,INFO,No records found.,10-07-2026-10-07-2026
+12-07-2026 12:35:27,generate_json_report,INFO,JSON Report Generated Successfully.,reports\json\11-07-2026_to_11-07-2026_20260712_123527.json
+12-07-2026 03:42:13,move_file,INFO,Moved,E:\\abc.txt -> E:\\Videos
+12-07-2026 04:07:23,rename_directory,INFO,Directory Renamed,E:\\test1 -> E:\\test2
+12-07-2026 04:11:12,rename_directory,INFO,Directory Renamed,E:\\qwe -> E:\\qwe1
+12-07-2026 04:42:08,rename_directory,ERROR,Something went wrong,[WinError 3] The system cannot find the path specified: 'E:\\\\test' -> ''
+12-07-2026 03:27:39,rename_file,INFO,Created File,E:\\abc.txt -> E:\\def.txt
+12-07-2026 03:30:29,rename_file,ERROR,File does not exist,sda
+12-07-2026 03:33:21,rename_file,INFO,Renamed File,E:\\def.txt -> E:\\abc.txt

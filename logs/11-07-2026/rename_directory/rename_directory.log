@@ -1,0 +1,3 @@
+11-07-2026 04:07:23 | INFO | Directory Renamed | E:\\test1 -> E:\\test2
+11-07-2026 04:11:11 | INFO | Directory Renamed | E:\\qwe -> E:\\qwe1
+11-07-2026 04:42:08 | ERROR | Something went wrong | [WinError 3] The system cannot find the path specified: 'E:\\\\test' -> ''

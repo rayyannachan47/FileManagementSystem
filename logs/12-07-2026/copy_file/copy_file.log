@@ -1,0 +1,4 @@
+12-07-2026 03:36:23 | ERROR | Copy Failed | abc.txt
+12-07-2026 03:36:23 | ERROR | Copy Failed | def.txt
+12-07-2026 03:37:25 | INFO | Copied | E:\\abc.txt -> E:\\Videos
+12-07-2026 03:37:25 | INFO | Copied | E:\\def.txt -> E:\\Videos

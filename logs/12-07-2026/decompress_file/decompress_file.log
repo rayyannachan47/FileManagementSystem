@@ -1,0 +1,5 @@
+12-07-2026 11:02:38 | ERROR | File doesn't exists
+12-07-2026 11:03:10 | ERROR | File doesn't exists | E:\\ziptest
+12-07-2026 11:03:21 | ERROR | File doesn't exists | E:\ziptest
+12-07-2026 11:03:32 | ERROR | File doesn't exists | ziptest
+12-07-2026 11:04:08 | INFO | Files decompress successfully | E:\\ziptest.zip

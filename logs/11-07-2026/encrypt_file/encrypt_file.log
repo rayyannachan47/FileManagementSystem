@@ -1,0 +1,6 @@
+11-07-2026 11:22:15 | ERROR | Something went wrong | Fernet key must be 32 url-safe base64-encoded bytes.
+11-07-2026 11:26:24 | ERROR | Something went wrong | Fernet key must be 32 url-safe base64-encoded bytes.
+11-07-2026 11:28:44 | ERROR | Something went wrong | Fernet key must be 32 url-safe base64-encoded bytes.
+11-07-2026 11:29:21 | INFO | Encrypted | E:\\abc.txt
+11-07-2026 11:35:10 | INFO | Encrypted | E:\\abc.txt
+11-07-2026 11:43:25 | ERROR | File does not exist | E:\\abc.txtt

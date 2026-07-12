@@ -1,0 +1,506 @@
+[
+    {
+        "date": "12-07-2026 11:01:15",
+        "module": "compress_file",
+        "severity_level": "ERROR",
+        "status": "Compression Failed",
+        "remark": "E:\\\\abc.txtt"
+    },
+    {
+        "date": "12-07-2026 11:01:47",
+        "module": "compress_file",
+        "severity_level": "INFO",
+        "status": "Compressed",
+        "remark": "E:\\\\abc.txt -> E:\\\\ziptest.zip"
+    },
+    {
+        "date": "12-07-2026 03:36:23",
+        "module": "copy_file",
+        "severity_level": "ERROR",
+        "status": "Copy Failed",
+        "remark": "abc.txt"
+    },
+    {
+        "date": "12-07-2026 03:36:23",
+        "module": "copy_file",
+        "severity_level": "ERROR",
+        "status": "Copy Failed",
+        "remark": "def.txt"
+    },
+    {
+        "date": "12-07-2026 03:37:25",
+        "module": "copy_file",
+        "severity_level": "INFO",
+        "status": "Copied",
+        "remark": "E:\\\\abc.txt -> E:\\\\Videos"
+    },
+    {
+        "date": "12-07-2026 03:37:25",
+        "module": "copy_file",
+        "severity_level": "INFO",
+        "status": "Copied",
+        "remark": "E:\\\\def.txt -> E:\\\\Videos"
+    },
+    {
+        "date": "12-07-2026 04:04:50",
+        "module": "create_directory",
+        "severity_level": "INFO",
+        "status": "Directory Created",
+        "remark": "E:test1"
+    },
+    {
+        "date": "12-07-2026 04:10:30",
+        "module": "create_directory",
+        "severity_level": "INFO",
+        "status": "Directory Created",
+        "remark": "E:qwe"
+    },
+    {
+        "date": "12-07-2026 04:41:42",
+        "module": "create_directory",
+        "severity_level": "INFO",
+        "status": "Directory Created",
+        "remark": "E:\\\\test"
+    },
+    {
+        "date": "12-07-2026 03:25:27",
+        "module": "create_file",
+        "severity_level": "INFO",
+        "status": "Created File",
+        "remark": "E:abc.txt"
+    },
+    {
+        "date": "12-07-2026 03:26:02",
+        "module": "create_file",
+        "severity_level": "ERROR",
+        "status": "File already exists",
+        "remark": "E:abc.txt"
+    },
+    {
+        "date": "12-07-2026 03:50:32",
+        "module": "create_file",
+        "severity_level": "INFO",
+        "status": "Search File",
+        "remark": "E:\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 11:03:10",
+        "module": "decompress_file",
+        "severity_level": "ERROR",
+        "status": "File doesn't exists",
+        "remark": "E:\\\\ziptest"
+    },
+    {
+        "date": "12-07-2026 11:03:21",
+        "module": "decompress_file",
+        "severity_level": "ERROR",
+        "status": "File doesn't exists",
+        "remark": "E:\\ziptest"
+    },
+    {
+        "date": "12-07-2026 11:03:32",
+        "module": "decompress_file",
+        "severity_level": "ERROR",
+        "status": "File doesn't exists",
+        "remark": "ziptest"
+    },
+    {
+        "date": "12-07-2026 11:04:08",
+        "module": "decompress_file",
+        "severity_level": "INFO",
+        "status": "Files decompress successfully",
+        "remark": "E:\\\\ziptest.zip"
+    },
+    {
+        "date": "12-07-2026 11:29:47",
+        "module": "decrypt_file",
+        "severity_level": "INFO",
+        "status": "Decrypted",
+        "remark": "E:\\\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 11:35:39",
+        "module": "decrypt_file",
+        "severity_level": "INFO",
+        "status": "Decrypted",
+        "remark": "E:\\\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 04:08:03",
+        "module": "delete_directory",
+        "severity_level": "INFO",
+        "status": "Directory Deleted",
+        "remark": "E:\\\\test2"
+    },
+    {
+        "date": "12-07-2026 04:11:35",
+        "module": "delete_directory",
+        "severity_level": "INFO",
+        "status": "Directory Deleted",
+        "remark": "E:\\\\qwe1"
+    },
+    {
+        "date": "12-07-2026 03:34:18",
+        "module": "delete_file",
+        "severity_level": "ERROR",
+        "status": "File does not exist",
+        "remark": "dasd"
+    },
+    {
+        "date": "12-07-2026 03:34:41",
+        "module": "delete_file",
+        "severity_level": "INFO",
+        "status": "Deleted File",
+        "remark": "E:\\\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 11:22:15",
+        "module": "encrypt_file",
+        "severity_level": "ERROR",
+        "status": "Something went wrong",
+        "remark": "Fernet key must be 32 url-safe base64-encoded bytes."
+    },
+    {
+        "date": "12-07-2026 11:26:24",
+        "module": "encrypt_file",
+        "severity_level": "ERROR",
+        "status": "Something went wrong",
+        "remark": "Fernet key must be 32 url-safe base64-encoded bytes."
+    },
+    {
+        "date": "12-07-2026 11:28:44",
+        "module": "encrypt_file",
+        "severity_level": "ERROR",
+        "status": "Something went wrong",
+        "remark": "Fernet key must be 32 url-safe base64-encoded bytes."
+    },
+    {
+        "date": "12-07-2026 11:29:21",
+        "module": "encrypt_file",
+        "severity_level": "INFO",
+        "status": "Encrypted",
+        "remark": "E:\\\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 11:35:10",
+        "module": "encrypt_file",
+        "severity_level": "INFO",
+        "status": "Encrypted",
+        "remark": "E:\\\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 11:43:25",
+        "module": "encrypt_file",
+        "severity_level": "ERROR",
+        "status": "File does not exist",
+        "remark": "E:\\\\abc.txtt"
+    },
+    {
+        "date": "12-07-2026 03:42:13",
+        "module": "move_file",
+        "severity_level": "INFO",
+        "status": "Moved",
+        "remark": "E:\\\\abc.txt -> E:\\\\Videos"
+    },
+    {
+        "date": "12-07-2026 04:07:23",
+        "module": "rename_directory",
+        "severity_level": "INFO",
+        "status": "Directory Renamed",
+        "remark": "E:\\\\test1 -> E:\\\\test2"
+    },
+    {
+        "date": "12-07-2026 04:11:12",
+        "module": "rename_directory",
+        "severity_level": "INFO",
+        "status": "Directory Renamed",
+        "remark": "E:\\\\qwe -> E:\\\\qwe1"
+    },
+    {
+        "date": "12-07-2026 04:42:08",
+        "module": "rename_directory",
+        "severity_level": "ERROR",
+        "status": "Something went wrong",
+        "remark": "[WinError 3] The system cannot find the path specified: 'E:\\\\\\\\test' -> ''"
+    },
+    {
+        "date": "12-07-2026 03:27:39",
+        "module": "rename_file",
+        "severity_level": "INFO",
+        "status": "Created File",
+        "remark": "E:\\\\abc.txt -> E:\\\\def.txt"
+    },
+    {
+        "date": "12-07-2026 03:30:29",
+        "module": "rename_file",
+        "severity_level": "ERROR",
+        "status": "File does not exist",
+        "remark": "sda"
+    },
+    {
+        "date": "12-07-2026 03:33:21",
+        "module": "rename_file",
+        "severity_level": "INFO",
+        "status": "Renamed File",
+        "remark": "E:\\\\def.txt -> E:\\\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 11:01:15",
+        "module": "compress_file",
+        "severity_level": "ERROR",
+        "status": "Compression Failed",
+        "remark": "E:\\\\abc.txtt"
+    },
+    {
+        "date": "12-07-2026 11:01:47",
+        "module": "compress_file",
+        "severity_level": "INFO",
+        "status": "Compressed",
+        "remark": "E:\\\\abc.txt -> E:\\\\ziptest.zip"
+    },
+    {
+        "date": "12-07-2026 03:36:23",
+        "module": "copy_file",
+        "severity_level": "ERROR",
+        "status": "Copy Failed",
+        "remark": "abc.txt"
+    },
+    {
+        "date": "12-07-2026 03:36:23",
+        "module": "copy_file",
+        "severity_level": "ERROR",
+        "status": "Copy Failed",
+        "remark": "def.txt"
+    },
+    {
+        "date": "12-07-2026 03:37:25",
+        "module": "copy_file",
+        "severity_level": "INFO",
+        "status": "Copied",
+        "remark": "E:\\\\abc.txt -> E:\\\\Videos"
+    },
+    {
+        "date": "12-07-2026 03:37:25",
+        "module": "copy_file",
+        "severity_level": "INFO",
+        "status": "Copied",
+        "remark": "E:\\\\def.txt -> E:\\\\Videos"
+    },
+    {
+        "date": "12-07-2026 04:04:50",
+        "module": "create_directory",
+        "severity_level": "INFO",
+        "status": "Directory Created",
+        "remark": "E:test1"
+    },
+    {
+        "date": "12-07-2026 04:10:30",
+        "module": "create_directory",
+        "severity_level": "INFO",
+        "status": "Directory Created",
+        "remark": "E:qwe"
+    },
+    {
+        "date": "12-07-2026 04:41:42",
+        "module": "create_directory",
+        "severity_level": "INFO",
+        "status": "Directory Created",
+        "remark": "E:\\\\test"
+    },
+    {
+        "date": "12-07-2026 03:25:27",
+        "module": "create_file",
+        "severity_level": "INFO",
+        "status": "Created File",
+        "remark": "E:abc.txt"
+    },
+    {
+        "date": "12-07-2026 03:26:02",
+        "module": "create_file",
+        "severity_level": "ERROR",
+        "status": "File already exists",
+        "remark": "E:abc.txt"
+    },
+    {
+        "date": "12-07-2026 03:50:32",
+        "module": "create_file",
+        "severity_level": "INFO",
+        "status": "Search File",
+        "remark": "E:\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 11:03:10",
+        "module": "decompress_file",
+        "severity_level": "ERROR",
+        "status": "File doesn't exists",
+        "remark": "E:\\\\ziptest"
+    },
+    {
+        "date": "12-07-2026 11:03:21",
+        "module": "decompress_file",
+        "severity_level": "ERROR",
+        "status": "File doesn't exists",
+        "remark": "E:\\ziptest"
+    },
+    {
+        "date": "12-07-2026 11:03:32",
+        "module": "decompress_file",
+        "severity_level": "ERROR",
+        "status": "File doesn't exists",
+        "remark": "ziptest"
+    },
+    {
+        "date": "12-07-2026 11:04:08",
+        "module": "decompress_file",
+        "severity_level": "INFO",
+        "status": "Files decompress successfully",
+        "remark": "E:\\\\ziptest.zip"
+    },
+    {
+        "date": "12-07-2026 11:29:47",
+        "module": "decrypt_file",
+        "severity_level": "INFO",
+        "status": "Decrypted",
+        "remark": "E:\\\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 11:35:39",
+        "module": "decrypt_file",
+        "severity_level": "INFO",
+        "status": "Decrypted",
+        "remark": "E:\\\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 11:44:40",
+        "module": "decrypt_file",
+        "severity_level": "INFO",
+        "status": "Decrypted",
+        "remark": "E:\\\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 04:08:03",
+        "module": "delete_directory",
+        "severity_level": "INFO",
+        "status": "Directory Deleted",
+        "remark": "E:\\\\test2"
+    },
+    {
+        "date": "12-07-2026 04:11:35",
+        "module": "delete_directory",
+        "severity_level": "INFO",
+        "status": "Directory Deleted",
+        "remark": "E:\\\\qwe1"
+    },
+    {
+        "date": "12-07-2026 03:34:18",
+        "module": "delete_file",
+        "severity_level": "ERROR",
+        "status": "File does not exist",
+        "remark": "dasd"
+    },
+    {
+        "date": "12-07-2026 03:34:41",
+        "module": "delete_file",
+        "severity_level": "INFO",
+        "status": "Deleted File",
+        "remark": "E:\\\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 11:22:15",
+        "module": "encrypt_file",
+        "severity_level": "ERROR",
+        "status": "Something went wrong",
+        "remark": "Fernet key must be 32 url-safe base64-encoded bytes."
+    },
+    {
+        "date": "12-07-2026 11:26:24",
+        "module": "encrypt_file",
+        "severity_level": "ERROR",
+        "status": "Something went wrong",
+        "remark": "Fernet key must be 32 url-safe base64-encoded bytes."
+    },
+    {
+        "date": "12-07-2026 11:28:44",
+        "module": "encrypt_file",
+        "severity_level": "ERROR",
+        "status": "Something went wrong",
+        "remark": "Fernet key must be 32 url-safe base64-encoded bytes."
+    },
+    {
+        "date": "12-07-2026 11:29:21",
+        "module": "encrypt_file",
+        "severity_level": "INFO",
+        "status": "Encrypted",
+        "remark": "E:\\\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 11:35:10",
+        "module": "encrypt_file",
+        "severity_level": "INFO",
+        "status": "Encrypted",
+        "remark": "E:\\\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 11:43:25",
+        "module": "encrypt_file",
+        "severity_level": "ERROR",
+        "status": "File does not exist",
+        "remark": "E:\\\\abc.txtt"
+    },
+    {
+        "date": "12-07-2026 11:44:25",
+        "module": "encrypt_file",
+        "severity_level": "INFO",
+        "status": "Encrypted",
+        "remark": "E:\\\\abc.txt"
+    },
+    {
+        "date": "12-07-2026 03:42:13",
+        "module": "move_file",
+        "severity_level": "INFO",
+        "status": "Moved",
+        "remark": "E:\\\\abc.txt -> E:\\\\Videos"
+    },
+    {
+        "date": "12-07-2026 04:07:23",
+        "module": "rename_directory",
+        "severity_level": "INFO",
+        "status": "Directory Renamed",
+        "remark": "E:\\\\test1 -> E:\\\\test2"
+    },
+    {
+        "date": "12-07-2026 04:11:12",
+        "module": "rename_directory",
+        "severity_level": "INFO",
+        "status": "Directory Renamed",
+        "remark": "E:\\\\qwe -> E:\\\\qwe1"
+    },
+    {
+        "date": "12-07-2026 04:42:08",
+        "module": "rename_directory",
+        "severity_level": "ERROR",
+        "status": "Something went wrong",
+        "remark": "[WinError 3] The system cannot find the path specified: 'E:\\\\\\\\test' -> ''"
+    },
+    {
+        "date": "12-07-2026 03:27:39",
+        "module": "rename_file",
+        "severity_level": "INFO",
+        "status": "Created File",
+        "remark": "E:\\\\abc.txt -> E:\\\\def.txt"
+    },
+    {
+        "date": "12-07-2026 03:30:29",
+        "module": "rename_file",
+        "severity_level": "ERROR",
+        "status": "File does not exist",
+        "remark": "sda"
+    },
+    {
+        "date": "12-07-2026 03:33:21",
+        "module": "rename_file",
+        "severity_level": "INFO",
+        "status": "Renamed File",
+        "remark": "E:\\\\def.txt -> E:\\\\abc.txt"
+    }
+]

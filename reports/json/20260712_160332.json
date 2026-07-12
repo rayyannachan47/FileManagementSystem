@@ -1,0 +1,548 @@
+[
+    {
+        "Date": "11-07-2026 11:01:15",
+        "Module": "compress_file",
+        "Severity Level": "ERROR",
+        "Status": "Compression Failed",
+        "Remark": "E:\\\\abc.txtt"
+    },
+    {
+        "Date": "11-07-2026 11:01:47",
+        "Module": "compress_file",
+        "Severity Level": "INFO",
+        "Status": "Compressed",
+        "Remark": "E:\\\\abc.txt -> E:\\\\ziptest.zip"
+    },
+    {
+        "Date": "11-07-2026 03:36:23",
+        "Module": "copy_file",
+        "Severity Level": "ERROR",
+        "Status": "Copy Failed",
+        "Remark": "abc.txt"
+    },
+    {
+        "Date": "11-07-2026 03:36:23",
+        "Module": "copy_file",
+        "Severity Level": "ERROR",
+        "Status": "Copy Failed",
+        "Remark": "def.txt"
+    },
+    {
+        "Date": "11-07-2026 03:37:25",
+        "Module": "copy_file",
+        "Severity Level": "INFO",
+        "Status": "Copied",
+        "Remark": "E:\\\\abc.txt -> E:\\\\Videos"
+    },
+    {
+        "Date": "11-07-2026 03:37:25",
+        "Module": "copy_file",
+        "Severity Level": "INFO",
+        "Status": "Copied",
+        "Remark": "E:\\\\def.txt -> E:\\\\Videos"
+    },
+    {
+        "Date": "11-07-2026 04:04:50",
+        "Module": "create_directory",
+        "Severity Level": "INFO",
+        "Status": "Directory Created",
+        "Remark": "E:test1"
+    },
+    {
+        "Date": "11-07-2026 04:10:30",
+        "Module": "create_directory",
+        "Severity Level": "INFO",
+        "Status": "Directory Created",
+        "Remark": "E:qwe"
+    },
+    {
+        "Date": "11-07-2026 04:41:42",
+        "Module": "create_directory",
+        "Severity Level": "INFO",
+        "Status": "Directory Created",
+        "Remark": "E:\\\\test"
+    },
+    {
+        "Date": "11-07-2026 03:25:27",
+        "Module": "create_file",
+        "Severity Level": "INFO",
+        "Status": "Created File",
+        "Remark": "E:abc.txt"
+    },
+    {
+        "Date": "11-07-2026 03:26:02",
+        "Module": "create_file",
+        "Severity Level": "ERROR",
+        "Status": "File already exists",
+        "Remark": "E:abc.txt"
+    },
+    {
+        "Date": "11-07-2026 03:50:32",
+        "Module": "create_file",
+        "Severity Level": "INFO",
+        "Status": "Search File",
+        "Remark": "E:\\abc.txt"
+    },
+    {
+        "Date": "11-07-2026 11:03:10",
+        "Module": "decompress_file",
+        "Severity Level": "ERROR",
+        "Status": "File doesn't exists",
+        "Remark": "E:\\\\ziptest"
+    },
+    {
+        "Date": "11-07-2026 11:03:21",
+        "Module": "decompress_file",
+        "Severity Level": "ERROR",
+        "Status": "File doesn't exists",
+        "Remark": "E:\\ziptest"
+    },
+    {
+        "Date": "11-07-2026 11:03:32",
+        "Module": "decompress_file",
+        "Severity Level": "ERROR",
+        "Status": "File doesn't exists",
+        "Remark": "ziptest"
+    },
+    {
+        "Date": "11-07-2026 11:04:08",
+        "Module": "decompress_file",
+        "Severity Level": "INFO",
+        "Status": "Files decompress successfully",
+        "Remark": "E:\\\\ziptest.zip"
+    },
+    {
+        "Date": "11-07-2026 11:29:47",
+        "Module": "decrypt_file",
+        "Severity Level": "INFO",
+        "Status": "Decrypted",
+        "Remark": "E:\\\\abc.txt"
+    },
+    {
+        "Date": "11-07-2026 11:35:39",
+        "Module": "decrypt_file",
+        "Severity Level": "INFO",
+        "Status": "Decrypted",
+        "Remark": "E:\\\\abc.txt"
+    },
+    {
+        "Date": "11-07-2026 04:08:03",
+        "Module": "delete_directory",
+        "Severity Level": "INFO",
+        "Status": "Directory Deleted",
+        "Remark": "E:\\\\test2"
+    },
+    {
+        "Date": "11-07-2026 04:11:35",
+        "Module": "delete_directory",
+        "Severity Level": "INFO",
+        "Status": "Directory Deleted",
+        "Remark": "E:\\\\qwe1"
+    },
+    {
+        "Date": "11-07-2026 03:34:18",
+        "Module": "delete_file",
+        "Severity Level": "ERROR",
+        "Status": "File does not exist",
+        "Remark": "dasd"
+    },
+    {
+        "Date": "11-07-2026 03:34:41",
+        "Module": "delete_file",
+        "Severity Level": "INFO",
+        "Status": "Deleted File",
+        "Remark": "E:\\\\abc.txt"
+    },
+    {
+        "Date": "11-07-2026 11:22:15",
+        "Module": "encrypt_file",
+        "Severity Level": "ERROR",
+        "Status": "Something went wrong",
+        "Remark": "Fernet key must be 32 url-safe base64-encoded bytes."
+    },
+    {
+        "Date": "11-07-2026 11:26:24",
+        "Module": "encrypt_file",
+        "Severity Level": "ERROR",
+        "Status": "Something went wrong",
+        "Remark": "Fernet key must be 32 url-safe base64-encoded bytes."
+    },
+    {
+        "Date": "11-07-2026 11:28:44",
+        "Module": "encrypt_file",
+        "Severity Level": "ERROR",
+        "Status": "Something went wrong",
+        "Remark": "Fernet key must be 32 url-safe base64-encoded bytes."
+    },
+    {
+        "Date": "11-07-2026 11:29:21",
+        "Module": "encrypt_file",
+        "Severity Level": "INFO",
+        "Status": "Encrypted",
+        "Remark": "E:\\\\abc.txt"
+    },
+    {
+        "Date": "11-07-2026 11:35:10",
+        "Module": "encrypt_file",
+        "Severity Level": "INFO",
+        "Status": "Encrypted",
+        "Remark": "E:\\\\abc.txt"
+    },
+    {
+        "Date": "11-07-2026 11:43:25",
+        "Module": "encrypt_file",
+        "Severity Level": "ERROR",
+        "Status": "File does not exist",
+        "Remark": "E:\\\\abc.txtt"
+    },
+    {
+        "Date": "11-07-2026 03:42:13",
+        "Module": "move_file",
+        "Severity Level": "INFO",
+        "Status": "Moved",
+        "Remark": "E:\\\\abc.txt -> E:\\\\Videos"
+    },
+    {
+        "Date": "11-07-2026 04:07:23",
+        "Module": "rename_directory",
+        "Severity Level": "INFO",
+        "Status": "Directory Renamed",
+        "Remark": "E:\\\\test1 -> E:\\\\test2"
+    },
+    {
+        "Date": "11-07-2026 04:11:11",
+        "Module": "rename_directory",
+        "Severity Level": "INFO",
+        "Status": "Directory Renamed",
+        "Remark": "E:\\\\qwe -> E:\\\\qwe1"
+    },
+    {
+        "Date": "11-07-2026 04:42:08",
+        "Module": "rename_directory",
+        "Severity Level": "ERROR",
+        "Status": "Something went wrong",
+        "Remark": "[WinError 3] The system cannot find the path specified: 'E:\\\\\\\\test' -> ''"
+    },
+    {
+        "Date": "11-07-2026 03:27:39",
+        "Module": "rename_file",
+        "Severity Level": "INFO",
+        "Status": "Created File",
+        "Remark": "E:\\\\abc.txt -> E:\\\\def.txt"
+    },
+    {
+        "Date": "11-07-2026 03:30:29",
+        "Module": "rename_file",
+        "Severity Level": "ERROR",
+        "Status": "File does not exist",
+        "Remark": "sda"
+    },
+    {
+        "Date": "11-07-2026 03:33:21",
+        "Module": "rename_file",
+        "Severity Level": "INFO",
+        "Status": "Renamed File",
+        "Remark": "E:\\\\def.txt -> E:\\\\abc.txt"
+    },
+    {
+        "Date": "12-07-2026 11:01:15",
+        "Module": "compress_file",
+        "Severity Level": "ERROR",
+        "Status": "Compression Failed",
+        "Remark": "E:\\\\abc.txtt"
+    },
+    {
+        "Date": "12-07-2026 11:01:47",
+        "Module": "compress_file",
+        "Severity Level": "INFO",
+        "Status": "Compressed",
+        "Remark": "E:\\\\abc.txt -> E:\\\\ziptest.zip"
+    },
+    {
+        "Date": "12-07-2026 03:36:23",
+        "Module": "copy_file",
+        "Severity Level": "ERROR",
+        "Status": "Copy Failed",
+        "Remark": "abc.txt"
+    },
+    {
+        "Date": "12-07-2026 03:36:23",
+        "Module": "copy_file",
+        "Severity Level": "ERROR",
+        "Status": "Copy Failed",
+        "Remark": "def.txt"
+    },
+    {
+        "Date": "12-07-2026 03:37:25",
+        "Module": "copy_file",
+        "Severity Level": "INFO",
+        "Status": "Copied",
+        "Remark": "E:\\\\abc.txt -> E:\\\\Videos"
+    },
+    {
+        "Date": "12-07-2026 03:37:25",
+        "Module": "copy_file",
+        "Severity Level": "INFO",
+        "Status": "Copied",
+        "Remark": "E:\\\\def.txt -> E:\\\\Videos"
+    },
+    {
+        "Date": "12-07-2026 04:04:50",
+        "Module": "create_directory",
+        "Severity Level": "INFO",
+        "Status": "Directory Created",
+        "Remark": "E:test1"
+    },
+    {
+        "Date": "12-07-2026 04:10:30",
+        "Module": "create_directory",
+        "Severity Level": "INFO",
+        "Status": "Directory Created",
+        "Remark": "E:qwe"
+    },
+    {
+        "Date": "12-07-2026 04:41:42",
+        "Module": "create_directory",
+        "Severity Level": "INFO",
+        "Status": "Directory Created",
+        "Remark": "E:\\\\test"
+    },
+    {
+        "Date": "12-07-2026 03:25:27",
+        "Module": "create_file",
+        "Severity Level": "INFO",
+        "Status": "Created File",
+        "Remark": "E:abc.txt"
+    },
+    {
+        "Date": "12-07-2026 03:26:02",
+        "Module": "create_file",
+        "Severity Level": "ERROR",
+        "Status": "File already exists",
+        "Remark": "E:abc.txt"
+    },
+    {
+        "Date": "12-07-2026 03:50:32",
+        "Module": "create_file",
+        "Severity Level": "INFO",
+        "Status": "Search File",
+        "Remark": "E:\\abc.txt"
+    },
+    {
+        "Date": "12-07-2026 11:03:10",
+        "Module": "decompress_file",
+        "Severity Level": "ERROR",
+        "Status": "File doesn't exists",
+        "Remark": "E:\\\\ziptest"
+    },
+    {
+        "Date": "12-07-2026 11:03:21",
+        "Module": "decompress_file",
+        "Severity Level": "ERROR",
+        "Status": "File doesn't exists",
+        "Remark": "E:\\ziptest"
+    },
+    {
+        "Date": "12-07-2026 11:03:32",
+        "Module": "decompress_file",
+        "Severity Level": "ERROR",
+        "Status": "File doesn't exists",
+        "Remark": "ziptest"
+    },
+    {
+        "Date": "12-07-2026 11:04:08",
+        "Module": "decompress_file",
+        "Severity Level": "INFO",
+        "Status": "Files decompress successfully",
+        "Remark": "E:\\\\ziptest.zip"
+    },
+    {
+        "Date": "12-07-2026 11:29:47",
+        "Module": "decrypt_file",
+        "Severity Level": "INFO",
+        "Status": "Decrypted",
+        "Remark": "E:\\\\abc.txt"
+    },
+    {
+        "Date": "12-07-2026 11:35:39",
+        "Module": "decrypt_file",
+        "Severity Level": "INFO",
+        "Status": "Decrypted",
+        "Remark": "E:\\\\abc.txt"
+    },
+    {
+        "Date": "12-07-2026 11:44:40",
+        "Module": "decrypt_file",
+        "Severity Level": "INFO",
+        "Status": "Decrypted",
+        "Remark": "E:\\\\abc.txt"
+    },
+    {
+        "Date": "12-07-2026 04:08:03",
+        "Module": "delete_directory",
+        "Severity Level": "INFO",
+        "Status": "Directory Deleted",
+        "Remark": "E:\\\\test2"
+    },
+    {
+        "Date": "12-07-2026 04:11:35",
+        "Module": "delete_directory",
+        "Severity Level": "INFO",
+        "Status": "Directory Deleted",
+        "Remark": "E:\\\\qwe1"
+    },
+    {
+        "Date": "12-07-2026 03:34:18",
+        "Module": "delete_file",
+        "Severity Level": "ERROR",
+        "Status": "File does not exist",
+        "Remark": "dasd"
+    },
+    {
+        "Date": "12-07-2026 03:34:41",
+        "Module": "delete_file",
+        "Severity Level": "INFO",
+        "Status": "Deleted File",
+        "Remark": "E:\\\\abc.txt"
+    },
+    {
+        "Date": "12-07-2026 11:22:15",
+        "Module": "encrypt_file",
+        "Severity Level": "ERROR",
+        "Status": "Something went wrong",
+        "Remark": "Fernet key must be 32 url-safe base64-encoded bytes."
+    },
+    {
+        "Date": "12-07-2026 11:26:24",
+        "Module": "encrypt_file",
+        "Severity Level": "ERROR",
+        "Status": "Something went wrong",
+        "Remark": "Fernet key must be 32 url-safe base64-encoded bytes."
+    },
+    {
+        "Date": "12-07-2026 11:28:44",
+        "Module": "encrypt_file",
+        "Severity Level": "ERROR",
+        "Status": "Something went wrong",
+        "Remark": "Fernet key must be 32 url-safe base64-encoded bytes."
+    },
+    {
+        "Date": "12-07-2026 11:29:21",
+        "Module": "encrypt_file",
+        "Severity Level": "INFO",
+        "Status": "Encrypted",
+        "Remark": "E:\\\\abc.txt"
+    },
+    {
+        "Date": "12-07-2026 11:35:10",
+        "Module": "encrypt_file",
+        "Severity Level": "INFO",
+        "Status": "Encrypted",
+        "Remark": "E:\\\\abc.txt"
+    },
+    {
+        "Date": "12-07-2026 11:43:25",
+        "Module": "encrypt_file",
+        "Severity Level": "ERROR",
+        "Status": "File does not exist",
+        "Remark": "E:\\\\abc.txtt"
+    },
+    {
+        "Date": "12-07-2026 11:44:25",
+        "Module": "encrypt_file",
+        "Severity Level": "INFO",
+        "Status": "Encrypted",
+        "Remark": "E:\\\\abc.txt"
+    },
+    {
+        "Date": "12-07-2026 12:32:01",
+        "Module": "generate_csv_report",
+        "Severity Level": "INFO",
+        "Status": "CSV Report Generated Successfully.",
+        "Remark": "reports\\csv\\11-07-2026_to_11-07-2026_20260712_123201.csv"
+    },
+    {
+        "Date": "12-07-2026 12:33:10",
+        "Module": "generate_csv_report",
+        "Severity Level": "INFO",
+        "Status": "No records found.",
+        "Remark": "10-07-2026-10-07-2026"
+    },
+    {
+        "Date": "12-07-2026 12:34:33",
+        "Module": "generate_csv_report",
+        "Severity Level": "INFO",
+        "Status": "No records found.",
+        "Remark": "10-07-2026-10-07-2026"
+    },
+    {
+        "Date": "12-07-2026 16:01:40",
+        "Module": "generate_csv_report",
+        "Severity Level": "INFO",
+        "Status": "CSV Report Generated Successfully.",
+        "Remark": "reports\\csv\\20260712_160140.csv"
+    },
+    {
+        "Date": "12-07-2026 12:35:06",
+        "Module": "generate_json_report",
+        "Severity Level": "INFO",
+        "Status": "No records found.",
+        "Remark": "10-07-2026-10-07-2026"
+    },
+    {
+        "Date": "12-07-2026 12:35:27",
+        "Module": "generate_json_report",
+        "Severity Level": "INFO",
+        "Status": "JSON Report Generated Successfully.",
+        "Remark": "reports\\json\\11-07-2026_to_11-07-2026_20260712_123527.json"
+    },
+    {
+        "Date": "12-07-2026 03:42:13",
+        "Module": "move_file",
+        "Severity Level": "INFO",
+        "Status": "Moved",
+        "Remark": "E:\\\\abc.txt -> E:\\\\Videos"
+    },
+    {
+        "Date": "12-07-2026 04:07:23",
+        "Module": "rename_directory",
+        "Severity Level": "INFO",
+        "Status": "Directory Renamed",
+        "Remark": "E:\\\\test1 -> E:\\\\test2"
+    },
+    {
+        "Date": "12-07-2026 04:11:12",
+        "Module": "rename_directory",
+        "Severity Level": "INFO",
+        "Status": "Directory Renamed",
+        "Remark": "E:\\\\qwe -> E:\\\\qwe1"
+    },
+    {
+        "Date": "12-07-2026 04:42:08",
+        "Module": "rename_directory",
+        "Severity Level": "ERROR",
+        "Status": "Something went wrong",
+        "Remark": "[WinError 3] The system cannot find the path specified: 'E:\\\\\\\\test' -> ''"
+    },
+    {
+        "Date": "12-07-2026 03:27:39",
+        "Module": "rename_file",
+        "Severity Level": "INFO",
+        "Status": "Created File",
+        "Remark": "E:\\\\abc.txt -> E:\\\\def.txt"
+    },
+    {
+        "Date": "12-07-2026 03:30:29",
+        "Module": "rename_file",
+        "Severity Level": "ERROR",
+        "Status": "File does not exist",
+        "Remark": "sda"
+    },
+    {
+        "Date": "12-07-2026 03:33:21",
+        "Module": "rename_file",
+        "Severity Level": "INFO",
+        "Status": "Renamed File",
+        "Remark": "E:\\\\def.txt -> E:\\\\abc.txt"
+    }
+]
