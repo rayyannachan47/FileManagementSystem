@@ -83,3 +83,13 @@ def show_json_history():
     _show_history([
         "generate_json_report.log"
     ])
+
+def show_system_health_history():
+    _show_history([
+        "system_information.log",
+        "cpu_usage.log",
+        "memory_usage.log",
+        "disk_usage.log",
+        "network_information.log",
+        "system_summary.log"
+    ])

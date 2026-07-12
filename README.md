@@ -135,12 +135,10 @@ MAIN MENU
 
 1. File Management
 2. Directory Management
-3. Compression
-4. Encryption
-5. Backup
-6. Reports
-7. History
-8. Exit
+3. Reports
+4. History
+5. System Health Check
+6. Exit
 
 # Logging Format
 

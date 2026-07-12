@@ -18,9 +18,10 @@ def main_menu():
             2: "Directory Operations",
             3: "Reports",
             4: "History",
-            5: "Exit"
+            5: "System Health Check",
+            6: "Exit"
         },
-        5
+        6
     )
 
 def file_menu():
@@ -75,6 +76,23 @@ def history_menu():
             4: "Compression History",
             5: "CSV Report",
             6: "JSON Report",
+            7: "System Health Check Report",
+            8: "Back"
+        },
+        8
+    )
+
+def system_health_menu():
+
+    return get_choice(
+        "SYSTEM HEALTH CHECK",
+        {
+            1: "System Information",
+            2: "CPU Usage",
+            3: "Memory Usage",
+            4: "Disk Usage",
+            5: "Network Information",
+            6: "System Summary",
             7: "Back"
         },
         7

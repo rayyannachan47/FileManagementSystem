@@ -1,4 +1,4 @@
-from menu import (main_menu,file_menu,directory_menu,report_menu,history_menu)
+from menu import (main_menu,file_menu,directory_menu,report_menu,history_menu,system_health_menu)
 from modules.compression import *
 from modules.directory_manager import *
 from modules.encryption import *
@@ -6,6 +6,7 @@ from modules.file_manager import *
 from modules.report import *
 from modules.search import *
 from core.history import *
+from modules.system_health import *
 
 def file_operations():
     while True:
@@ -77,6 +78,29 @@ def history_operations():
         elif choice == 6:
             show_json_history()
         elif choice == 7:
+            show_system_health_history()
+        elif choice == 8:
+            break
+        else:
+            print("\nInvalid Choice")
+
+def system_health_operations():
+
+    while True:
+        choice = system_health_menu()
+        if choice == 1:
+            system_information()
+        elif choice == 2:
+            cpu_usage()
+        elif choice == 3:
+            memory_usage()
+        elif choice == 4:
+            disk_usage()
+        elif choice == 5:
+            network_information()
+        elif choice == 6:
+            system_summary()
+        elif choice == 7:
             break
         else:
             print("\nInvalid Choice")
@@ -94,6 +118,8 @@ def main():
         elif choice == 4:
             history_operations()
         elif choice == 5:
+            system_health_operations()
+        elif choice == 6:
             print("\nThank You...")
             break
         else:
